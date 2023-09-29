@@ -1,0 +1,17 @@
+.container {
+	min-height: 100%;
+	width: 100%;
+	//background-color: #3f5e71;
+	display: flex;
+	flex-direction: column;
+	.upperBlock {
+		margin: 8px;
+		display: flex;
+		flex: 1 1 auto;
+	}
+	.outlet {
+		width: 100%;
+		background-color: #242424;
+		border-radius: 8px;
+	}
+}
