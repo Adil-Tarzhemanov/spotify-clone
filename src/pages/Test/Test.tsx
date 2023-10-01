@@ -11,9 +11,7 @@ const Test: FC = () => {
 				<WhiteButton title={'Explore premium'} />
 				<WhiteButton title={'Create playlist'} />
 			</div>
-			<div>
-				<input type="text" placeholder={'himanyo'} />
-			</div>
+			<div>{/*<input type="text" placeholder={'himanyo'} />*/}</div>
 		</div>
 	);
 };
