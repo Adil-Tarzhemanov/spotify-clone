@@ -1,0 +1,45 @@
+.container {
+	.label {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		font-size: 14px;
+		font-weight: 700;
+		.input {
+			white-space: nowrap; /* Запрет переноса текста на новую строку */
+			overflow: hidden; /* Скрыть текст, который не помещается */
+			text-overflow: ellipsis; /* Добавить многоточие в конце текста */
+			font-size: 16px;
+			font-weight: 500;
+			outline: white;
+			margin-top: 7px;
+			color: white;
+			height: 48px;
+			width: 100%;
+			background-color: #0a0a0a;
+			border: 0;
+			border-radius: 4px;
+			box-shadow: inset 0 0 0 1px var(--essential-subdued, #878787);
+			padding: 15px;
+			transition: box-shadow 0.1s ease-out;
+			&:hover {
+				box-shadow: inset 0 0 0 1px var(--essential-subdued, white);
+			}
+			&:focus {
+				box-shadow: inset 0 0 0 2.5px var(--essential-subdued, white);
+			}
+		}
+		.input_error {
+			box-shadow: inset 0 0 0 1px var(--essential-subdued, #e92229);
+			&:hover {
+				box-shadow: inset 0 0 0 1px var(--essential-subdued, #e92229);
+			}
+			&:focus {
+				box-shadow: inset 0 0 0 2.5px var(--essential-subdued, #e92229);
+			}
+		}
+	}
+
+	margin-bottom: 15px;
+}
