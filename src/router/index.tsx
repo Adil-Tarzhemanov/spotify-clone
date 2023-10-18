@@ -1,6 +1,5 @@
 import Home from 'src/pages/Home/Home';
 import Test from 'src/pages/Test/Test';
-import Login from 'src/pages/Login/Login';
 
 export const RouteNames = {
 	HOME: '/',
