@@ -1,0 +1,73 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	font-size: 14px;
+	.header {
+		font-size: 25px;
+		display: flex;
+		align-items: center;
+		padding-left: 60px;
+		width: 100%;
+		min-height: 100px;
+		background-color: black;
+	}
+	.content {
+		background: rgb(0, 0, 0);
+		background: linear-gradient(
+			0deg,
+			rgba(0, 0, 0, 1) 0%,
+			rgba(25, 25, 25, 1) 100%
+		);
+
+		flex: 1 1 auto;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.loginWindow {
+			margin: 30px;
+			//height: 500px;
+			width: 700px;
+			background-color: black;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			.loginTitle {
+				width: 70%;
+				padding: 30px;
+				font-size: 43px;
+				margin-bottom: 30px;
+				border-bottom: 0.7px solid #484848;
+			}
+
+			.forgotPassButton {
+				font-weight: 700;
+				font-size: 14px;
+				margin: 30px 0;
+				text-decoration: underline;
+				&:hover {
+					color: #24d34e;
+				}
+			}
+			.noAccountTitle {
+				width: 70%;
+
+				border-top: 0.7px solid #484848;
+				font-weight: 700;
+				color: #878787;
+				padding: 40px 0;
+				.noAccountButton {
+					text-decoration: underline;
+					color: white;
+					margin-left: 10px;
+					&:hover {
+						color: #24d34e;
+					}
+				}
+			}
+		}
+	}
+}

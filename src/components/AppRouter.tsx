@@ -2,6 +2,7 @@ import { FC } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { publicRoutes } from 'src/router';
 import MainLayout from 'src/layouts/MainLayout/MainLayout';
+import Login from 'src/pages/Login/Login';
 
 const AppRouter: FC = () => {
 	return (
@@ -20,6 +21,7 @@ const AppRouter: FC = () => {
 						);
 					})}
 				</Route>
+				<Route path={'/login'} element={<Login />} />
 			</Routes>
 		</>
 	);

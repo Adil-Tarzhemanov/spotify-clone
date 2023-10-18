@@ -1,0 +1,23 @@
+.container {
+	color: #f15f6c;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	margin-top: 5px;
+	font-size: 13px;
+	font-weight: 600;
+	position: relative;
+	text-align: left;
+	.alertSVG {
+		position: absolute;
+		margin-right: 3px;
+		min-width: 20px;
+		min-height: 20px;
+		top: 0;
+		left: 0;
+	}
+	.errorText {
+		margin-top: 1px;
+		margin-left: 25px;
+	}
+}

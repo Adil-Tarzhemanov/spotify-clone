@@ -4,10 +4,12 @@ import Test from 'src/pages/Test/Test';
 export const RouteNames = {
 	HOME: '/',
 	TEST: '/test',
+	// LOGIN: '/login',
 };
 export const publicRoutes = [
 	{ path: RouteNames.HOME, element: Home },
 	{ path: RouteNames.TEST, element: Test },
+	// { path: RouteNames.LOGIN, element: Login },
 ];
 
 // export const privateRoutes = [{ path: '-', element: '-' }];
